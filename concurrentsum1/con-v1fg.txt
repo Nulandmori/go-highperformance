@@ -1,0 +1,6 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/Nulandmori/go-highperformance/concurrentsum1
+BenchmarkSum_fgprof 	       7	11440489107 ns/op
+PASS
+ok  	github.com/Nulandmori/go-highperformance/concurrentsum1	90.221s

@@ -1,0 +1,10 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/Nulandmori/go-highperformance/sum1
+BenchmarkSum-4   	     145	  81995138 ns/op	57526400 B/op	 1820007 allocs/op
+BenchmarkSum-4   	     145	  82059138 ns/op	57526400 B/op	 1820007 allocs/op
+BenchmarkSum-4   	     145	  82758406 ns/op	57526513 B/op	 1820007 allocs/op
+BenchmarkSum-4   	     145	  81921738 ns/op	57526401 B/op	 1820007 allocs/op
+BenchmarkSum-4   	     146	  81925392 ns/op	57526400 B/op	 1820007 allocs/op
+PASS
+ok  	github.com/Nulandmori/go-highperformance/sum1	101.384s

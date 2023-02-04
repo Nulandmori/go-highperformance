@@ -1,0 +1,10 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/Nulandmori/go-highperformance/concurrentsum1
+BenchmarkSum-4   	       3	4310893042 ns/op	749573048 B/op	20000856 allocs/op
+BenchmarkSum-4   	       3	4317751000 ns/op	749596461 B/op	20000813 allocs/op
+BenchmarkSum-4   	       3	4261955917 ns/op	749210861 B/op	20000013 allocs/op
+BenchmarkSum-4   	       3	4769875486 ns/op	749210541 B/op	20000010 allocs/op
+BenchmarkSum-4   	       3	4478481056 ns/op	749208002 B/op	20000011 allocs/op
+PASS
+ok  	github.com/Nulandmori/go-highperformance/concurrentsum1	133.522s

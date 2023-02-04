@@ -1,0 +1,6 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/Nulandmori/go-highperformance/sum1
+BenchmarkSum_fgprof 	     884	  82801385 ns/op
+PASS
+ok  	github.com/Nulandmori/go-highperformance/sum1	81.568s
